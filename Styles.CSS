@@ -1,0 +1,53 @@
+body {
+    padding-top: 20px;
+    background: no-repeat center center fixed; 
+    background-image: url('https://wallpapers-clan.com/wp-content/uploads/2024/02/aesthetic-minecraft-landscape-desktop-wallpaper-preview.jpg');
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.header-image {
+    width: 100%;
+    height: auto; /* Ajustado para que sea auto y no fijo */
+    background: url('header.webp') no-repeat center center;
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size-adjust: auto;
+    margin-bottom: 20px;
+}
+
+
+
+.navbar {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.transparent-box {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la barra de navegación fija en la parte superior */
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* Por encima de otros elementos pero debajo de los modales */
+}
+
+/* Estilos para el footer */
+.footer {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column; /* Hacer que los elementos del navbar estén en columna en pantallas pequeñas */
+    }
+}
